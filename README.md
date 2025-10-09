@@ -5,7 +5,6 @@ def fetch_initial_users():
     return ["Alice_Admin", "Bob_DevOps", "Charlie_Security"]
 
 def check_service_status(service_name: str) -> str:
-    """Simulates checking the running status of a given system service."""
     if service_name.lower() == "auth_server":
         return "Status: UP (Health Check Passed)"
     else:
